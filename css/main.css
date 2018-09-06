@@ -1,3 +1,29 @@
 body {
   font-family: Palatino;
+    background-color: #3A3C39;
+    color: #FA971E ;
+}
+
+.booklist {
+  background-color: #979089;
+  color: #FA971E ;
+  font-family: sans-serif;
+
+}
+
+.form-item{
+  padding: 1em;
+  padding-left: 0.5em;
+
+}
+
+button, input {
+  background-color: ;
+  border: none;
+  color: #3A3C39;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
 }
