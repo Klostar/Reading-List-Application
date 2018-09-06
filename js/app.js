@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 const deleteButton = document.querySelector('#delete');
-form.addEventListener('click', handleDelete);
+deleteButton.addEventListener('click', handleDelete);
 
 });
 
@@ -20,7 +20,8 @@ const handleSubmit = function () {
   const formResult = document.querySelector('ul');
   formResult.appendChild(newListItem);
 
-document.querySelector('#new-item-form').reset();;
+// document.querySelector('#new-item-form').reset();;
+this.reset();
 }
 
 const handleDelete = function() {
